@@ -1,14 +1,14 @@
 cask "catpane" do
-  version "0.2.0"
+  version "0.2.1"
 
   on_arm do
-    sha256 "c42b457613854e83cef06657051308946fff3e48e019265fea9e65b8f1e159fa"
+    sha256 "c095b0b3b241b627e9e2361627664782e5d0d91461639a1d2f57addc6426f7ba"
 
     url "https://github.com/crockalet/catpane/releases/download/v#{version}/CatPane-v#{version}-macos-arm64.zip"
   end
 
   on_intel do
-    sha256 "7b9a1427cabb5e3bfb2a0f6e769e8cfc50952184d319cfbac340d953a89c5813"
+    sha256 "bdc2fe4f06e635187595080ae209e185d43288786e6e011029957dddc08d2edb"
 
     url "https://github.com/crockalet/catpane/releases/download/v#{version}/CatPane-v#{version}-macos-x86_64.zip"
   end
